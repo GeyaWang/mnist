@@ -30,6 +30,7 @@ def main():
 
     print()
     print(f'accuracy: {n_correct}/{SAMPLE_SIZE} ({n_correct / SAMPLE_SIZE * 100}%)')
+    # accuracy: 9852/10000 (98.52 %)
 
 
 if __name__ == '__main__':
