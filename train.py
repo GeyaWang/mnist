@@ -32,7 +32,7 @@ def main():
     x_train = np.reshape(x, (*x.shape, 1))
     y_train = np.identity(10)[y]
 
-    model.fit(x_train, y_train, batch_size=32, running_mean_err=100, graph=2, epochs=3, save_filepath=FILEPATH)
+    model.fit(x_train, y_train, batch_size=32, running_mean_err=100, graph=2, epochs=3, save_filepath=FILEPATH, processes=5)
 
 
 if __name__ == '__main__':
